@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1629284811,
+        "narHash": "sha256-JHgasjPR0/J1J3DRm4KxM4zTyAj4IOJY8vIl75v/kPI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c5d161cc0af116a2e17f54316f0bf43f0819785c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1629292755,
+        "narHash": "sha256-5xMo32NVLnloY9DveqwJO/Cab1+PbTMPqU4WMmawX5M=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "253aecf69ed7595aaefabde779aa6449195bebb7",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixpkgs-unstable",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "searchanddisplace-core": "searchanddisplace-core"
+      }
+    },
+    "searchanddisplace-core": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628756866,
+        "narHash": "sha256-K+uM5iCT3XGrqmi1bHruF22rKMJyd1yU3LPr3Wg5mbY=",
+        "ref": "master",
+        "rev": "07f3d14e62c8b978f12c07bbf7b5b761b8e94268",
+        "revCount": 44,
+        "type": "git",
+        "url": "https://git.law/newroco/searchanddisplace-core"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.law/newroco/searchanddisplace-core"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
