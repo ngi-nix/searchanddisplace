@@ -1,18 +1,19 @@
 {
   "nodes": {
-    "flake-utils": {
+    "composer2nix": {
+      "flake": false,
       "locked": {
-        "lastModified": 1629284811,
-        "narHash": "sha256-JHgasjPR0/J1J3DRm4KxM4zTyAj4IOJY8vIl75v/kPI=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "c5d161cc0af116a2e17f54316f0bf43f0819785c",
-        "type": "github"
+        "lastModified": 1614430729,
+        "narHash": "sha256-I8XDIvUj5TNS4yuW0bnIa4l1X7IRBaREbB1qv4TTYaM=",
+        "ref": "master",
+        "rev": "9983c6fafb277f6b305edf232c2690d6d28ec092",
+        "revCount": 50,
+        "type": "git",
+        "url": "https://github.com/svanderburg/composer2nix"
       },
       "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
+        "type": "git",
+        "url": "https://github.com/svanderburg/composer2nix"
       }
     },
     "nixpkgs": {
@@ -32,25 +33,8 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs",
-        "searchanddisplace-core": "searchanddisplace-core"
-      }
-    },
-    "searchanddisplace-core": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1628756866,
-        "narHash": "sha256-K+uM5iCT3XGrqmi1bHruF22rKMJyd1yU3LPr3Wg5mbY=",
-        "ref": "master",
-        "rev": "07f3d14e62c8b978f12c07bbf7b5b761b8e94268",
-        "revCount": 44,
-        "type": "git",
-        "url": "https://git.law/newroco/searchanddisplace-core"
-      },
-      "original": {
-        "type": "git",
-        "url": "https://git.law/newroco/searchanddisplace-core"
+        "composer2nix": "composer2nix",
+        "nixpkgs": "nixpkgs"
       }
     }
   },
